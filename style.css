@@ -127,6 +127,7 @@ iconify-icon {
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 20% 20% 20% 20% 20%;
+        margin: 15px;
     }
 }
 
@@ -139,7 +140,8 @@ iconify-icon {
 
     .iconBar {
         display: grid;
-        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-columns: 50% 50%;
         grid-template-rows: 50% 50%;
+        margin: 15px;
     }
 }
