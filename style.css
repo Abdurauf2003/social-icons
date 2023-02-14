@@ -116,6 +116,21 @@ iconify-icon {
     color: #cd201f;
 }
 
+@media only screen and (min-width: 50px) and (max-width: 319px) {
+    .button {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+
+    .iconBar {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+        margin: 15px;
+    }
+}
+
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     .button {
         position: absolute;
