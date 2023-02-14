@@ -119,17 +119,18 @@ iconify-icon {
 @media only screen and (max-width: 480px) {
     .button {
         position: absolute;
-        left: 15px;
+        right: 15px;
         top: 15px;
     }
 
     .iconBar {
         display: grid;
         grid-template-columns: 50% 50%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
     }
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 768px) {
     .button {
         position: absolute;
         right: 15px;
@@ -139,5 +140,6 @@ iconify-icon {
     .iconBar {
         display: grid;
         grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: 50% 50%;
     }
 }
