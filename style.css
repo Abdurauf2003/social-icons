@@ -116,7 +116,7 @@ iconify-icon {
     color: #cd201f;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 480px) {
     .button {
         position: absolute;
         right: 15px;
