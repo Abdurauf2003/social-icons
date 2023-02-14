@@ -115,3 +115,16 @@ iconify-icon {
 .youtube:hover {
     color: #cd201f;
 }
+
+@media only screen and (max-width: 500px) {
+    .button {
+        position: absolute;
+        left: 15px;
+        top: 15px;
+    }
+
+    .iconBar {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+    }
+}
