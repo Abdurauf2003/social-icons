@@ -1,3 +1,4 @@
+// Created by HanSiBin (Abdurauf Egamov)
 function toggleMode() {
     let myBox = document.getElementById('myBox');
     let myBar = document.getElementById('myBar');
@@ -12,6 +13,7 @@ function toggleMode() {
     let ico7 = document.getElementById('ico7');
     let ico8 = document.getElementById('ico8');
     let ico9 = document.getElementById('ico9');
+    
     myBox.classList.toggle("dark-mode");
     myBar.classList.toggle("dark-mode");
     myBtn.classList.toggle("dark-mode");
