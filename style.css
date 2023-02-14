@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    background: #fff;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.iconBar {
+    display: flex;
+    border: 1px #333 solid;
+    border-radius: 25px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    transition: 2.5s;
+}
+
+.iconBar.dark-mode {
+    border: 1px #fff solid;
+    transition: 2.5s;
+}
+
+iconify-icon.dark-mode {
+    color: #fff;
+    font-size: 50px;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    transition: 1.5s;
+}
+
+iconify-icon {
+    color: #333;
+    font-size: 50px;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    transition: 1.5s;
+}
+
+.button.dark-mode {
+    color: #fff;
+    border: 1px #fff solid;
+    border-radius: 50%;
+}
+
+.button {
+    color: #333;
+    border: 1px #333 solid;
+    border-radius: 50%;
+}
+
+.button.dark-mode:hover {
+    background: #fff;
+    color: #333;
+}
+
+.button:hover {
+    background: #333;
+    color: #fff;
+}
+
+.google-plus:hover {
+    color: #dc4e41;
+}
+
+.linkedin:hover {
+    color: #0077b5;
+}
+
+.pinterest:hover {
+    color: #bd081c;
+}
+
+.whatsapp:hover {
+    color: #43d854;
+}
+
+.skype:hover {
+    color: #00aff0;
+}
+
+.twitter:hover {
+    color: #55acee;
+}
+
+.snapchat:hover {
+    color: #fffa37;
+}
+
+.tumblr:hover {
+    color: #00405d;
+}
+
+.twitch:hover {
+    color: #6441a5;
+}
+
+.youtube:hover {
+    color: #cd201f;
+}
